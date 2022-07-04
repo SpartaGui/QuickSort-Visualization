@@ -117,6 +117,7 @@ void quicksort(int c, int f){
 
 int main(){
     srand(time(NULL));
+    system("pause");
     system("cls");
     for(int i = 0;i<tamanho;i++){
         num[i] = rand()%tamanho+1;
